@@ -49,3 +49,62 @@ nav a{
   border-radius: 80px;
   font-family: "Rock Salt", cursive;
 }
+@media(width <= 480px){
+  nav{
+      flex-direction: column;
+      
+  }
+  .slider-container img{
+      display: none;
+  }
+  header img{
+      display: flex;
+      justify-content: flex-end;
+      width: 100px;
+  }
+  .centrar{
+      width: 350px;
+      display: flex;
+  }
+form{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.texto-derecha{
+  font-size: 19px;
+}
+footer{
+  margin-top: 3800px;
+}
+}
+@media (width<=768px)
+{
+  nav{
+    flex-direction: column;
+    
+}
+.slider-container img{
+    display: none;
+}
+header img{
+    display: flex;
+    justify-content: flex-end;
+    width: 100px;
+}
+.centrar{
+    width: 350px;
+    display: flex;
+}
+form{
+width: 100px;
+display: flex;
+justify-content: center;
+}
+.texto-derecha{
+font-size: 19px;
+}
+footer{
+margin-top: 3800px;
+}
+}

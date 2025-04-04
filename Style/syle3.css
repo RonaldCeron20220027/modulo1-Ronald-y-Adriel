@@ -46,8 +46,38 @@ height: 65px;
 }
 nav{
     box-shadow: #7D7764;
+    display: flex;
     justify-content: space-evenly;
 }
 nav a{
     text-decoration: none;
+}
+
+@media (width<=768px)
+{
+    .estilobarra{
+        width: 350px;
+    }
+    .alinear img{
+        display: none;
+    }
+    .textoestilo{
+        font-size: 50px;
+    }
+
+
+}
+
+@media(width <= 480px){
+    .estilobarra{
+        width: 190px;
+        height: 30px;
+    }
+    .alinear img{
+        display: none;
+    }
+    .textoestilo{
+        font-size: 35px;
+    }
+
 }
